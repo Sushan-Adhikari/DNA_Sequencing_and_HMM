@@ -23,7 +23,7 @@ This project involves generating DNA sequences and conducting risk analysis for 
 ```bash
 python install_requirements.py
 
-
+```
 3. Usage
 Data Collection: Place your DNA sequences in FASTA format inside the brca1_sequences.fasta file.
 Run Pipeline: Execute the pipeline for sequence alignment, feature extraction, and risk analysis:
@@ -31,6 +31,7 @@ Run Pipeline: Execute the pipeline for sequence alignment, feature extraction, a
 ```bash
 python run_pipeline.py
 
+```
 4. Files
 - **data_collection.py:** Script to collect and align DNA sequences.
 - **feature_extraction.py:** Extracts features from aligned sequences.
